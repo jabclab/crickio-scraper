@@ -1,0 +1,27 @@
+{
+  "name": "crickio-scraper",
+  "version": "0.0.0",
+  "description": "CricInfo scraper into Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabclab/crickio-scraper.git"
+  },
+  "keywords": [
+    "cricinfo",
+    "scraper",
+    "spider"
+  ],
+  "author": "jabclab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabclab/crickio-scraper/issues"
+  },
+  "homepage": "https://github.com/jabclab/crickio-scraper",
+  "dependencies": {
+    "crawler": "^0.2.6"
+  }
+}
