@@ -25,6 +25,7 @@
   "homepage": "https://github.com/jabclab/crickio-scraper",
   "dependencies": {
     "async": "^0.9.0",
-    "crawler": "^0.2.6"
+    "crawler": "^0.2.6",
+    "redis": "^0.11.0"
   }
 }
