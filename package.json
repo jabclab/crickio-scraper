@@ -2,7 +2,9 @@
   "name": "crickio-scraper",
   "version": "0.0.0",
   "description": "CricInfo scraper into Redis",
-  "main": "index.js",
+  "main": "./lib/scraper.js",
+  "bin": "./bin/scraper-cli.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/jabclab/crickio-scraper",
   "dependencies": {
+    "async": "^0.9.0",
     "crawler": "^0.2.6"
   }
 }
